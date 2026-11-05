@@ -1,0 +1,11 @@
+# Never commit server credentials, local overrides, demos, or runtime data.
+server.cfg
+*.dem
+*.log
+*.sqlite
+*.sqlite3
+*.db
+.env
+.env.*
+!*.env.example
+
